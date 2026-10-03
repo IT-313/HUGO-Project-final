@@ -1,178 +1,362 @@
+```html
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>HUGO PETs - Services</title>
+  <title>Services - HUGO PETs</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/style.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
+
+
   <header>
     <div class="container navbar">
-  <a href="../index.html" class="logo">
-    HUGO <span>PETS</span>
-  </a>
 
-  <nav>
-    <ul class="nav-links">
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </nav>
+      <a href="../index.html" class="logo">
+        HUGO <span>PETS</span>
+      </a>
 
-</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+    </div>
   </header>
+
+
   <section class="hero">
+
     <div class="container hero-content">
-  <h1>
-    Our <span class="highlight">Pet Services</span>
-  </h1>
 
-  <p>
-    At HUGO PETs, we provide loving, safe, and quality services
-    to keep your furry friends happy, healthy, and well cared for.
-  </p>
+      <h1> Our <span class="highlight">Pet Services</span> </h1>
 
-</div>
+      <p>
+        At HUGO PETs, we provide loving, safe, and quality
+        services to keep your furry friends happy and healthy.
+      </p>
 
+    </div>
   </section>
+
 
   <section class="services">
-<div class="container">
 
-  <h2 class="section-title">
-    What We Offer
-  </h2>
+    <div class="container">
 
-  <div class="cards-grid">
-    <div class="card">
-      <div class="icon">🐾</div>
+      <h2 class="section-title">
+        What We Offer
+      </h2>
 
-      <h3>Pet Grooming</h3>
-      <p>
-        Our professional grooming service keeps your pets
-        clean, fresh, comfortable, and looking their best.
-      </p>
+      <div class="cards-grid">
 
-      <a href="../index.html#contact" class="btn btn-primary">
-        Book Now
-      </a>
+        <div class="card">
+
+          <div class="icon">🐾</div>
+
+          <h3>Pet Grooming</h3>
+
+          <p>
+            Our professional grooming service keeps your
+            pets clean, fresh, comfortable, and looking their best.
+          </p>
+
+          <button
+            class="btn btn-primary book-btn"
+            data-service="Pet Grooming">
+            Book Now
+          </button>
+
+        </div>
+
+
+        <div class="card">
+
+          <div class="icon">🍖</div>
+
+          <h3>Delicious Treats</h3>
+
+          <p>
+            Give your pets tasty and enjoyable treats
+            that they will surely love.
+          </p>
+
+          <a
+            href="../index.html#about"
+            class="btn btn-primary">
+            Learn More
+          </a>
+
+        </div>
+
+        <div class="card">
+
+          <div class="icon">🏥</div>
+
+          <h3>Veterinary Care</h3>
+
+          <p>
+            We provide basic pet healthcare support
+            and professional checkup services.
+          </p>
+
+          <button
+            class="btn btn-primary book-btn"
+            data-service="Veterinary Care">
+            Book Now
+          </button>
+
+        </div>
+
+        <div class="card">
+
+          <div class="icon">🛁</div>
+
+          <h3>Pet Bathing</h3>
+
+          <p>
+            Gentle bathing services to help your pets
+            stay clean, fresh, and comfortable.
+          </p>
+
+          <button
+            class="btn btn-primary book-btn"
+            data-service="Pet Bathing">
+            Book Now
+          </button>
+
+        </div>
+
+        <div class="card">
+
+          <div class="icon">✂️</div>
+
+          <h3>Hair Trimming</h3>
+
+          <p>
+            Keep your pet looking neat and adorable
+            with our careful hair trimming service.
+          </p>
+
+          <button
+            class="btn btn-primary book-btn"
+            data-service="Hair Trimming">
+            Book Now
+          </button>
+
+        </div>
+
+        <div class="card">
+
+          <div class="icon">❤️</div>
+
+          <h3>Pet Care</h3>
+
+          <p>
+            We provide loving attention because every
+            pet deserves to feel safe, happy, and loved.
+          </p>
+
+          <button
+            class="btn btn-primary book-btn"
+            data-service="Pet Care">
+            Book Now
+          </button>
+
+        </div>
+
+      </div>
 
     </div>
-    <div class="card">
-      <div class="icon">🍖</div>
-      <h3>Delicious Treats</h3>
-      <p>
-        Give your pets tasty and enjoyable treats that they
-        will surely love. We offer a variety of pet-friendly treats.
-      </p>
-
-      <a href="../index.html#contact" class="btn btn-primary">
-        Learn More
-      </a>
-
-    </div>
-
-    <div class="card">
-      <div class="icon">🏥</div>
-      <h3>Veterinary Care</h3>
-      <p>
-        Our veterinary care helps support your pet's health
-        through professional checkups and basic healthcare services.
-      </p>
-      <a href="../index.html#contact" class="btn btn-primary">
-        Contact Us
-      </a>
-    </div>
-
-    <div class="card">
-      <div class="icon">🛁</div>
-      <h3>Pet Bathing</h3>
-      <p>
-        We provide gentle bathing services to help your pets
-        stay clean, fresh, and comfortable.
-      </p>
-      <a href="../index.html#contact" class="btn btn-primary">
-        Book Now
-      </a>
-    </div>
-
-    <div class="card">
-      <div class="icon">✂️</div>
-      <h3>Hair Trimming</h3>
-      <p>
-        Keep your pet looking neat and adorable with our
-        careful and gentle hair trimming service.
-      </p>
-      <a href="../index.html#contact" class="btn btn-primary">
-        Book Now
-      </a>
-
-    </div>
-
-    <div class="card">
-      <div class="icon">❤️</div>
-      <h3>Pet Care</h3>
-      <p>
-        We provide loving attention and care because every pet
-        deserves to feel safe, happy, and loved.
-      </p>
-      <a href="../index.html#contact" class="btn btn-primary">
-        Learn More
-      </a>
-
-    </div>
-  </div>
-</div>
 
   </section>
+
+
+  <section class="contact-page" id="booking">
+
+    <div class="container">
+
+      <div class="contact-form-box">
+
+        <h2>Book a Pet Service</h2>
+
+        <p>
+          Fill out the form below to request a booking.
+        </p>
+
+        <form id="bookingForm">
+
+          <div class="mb-3">
+
+            <label for="bookingName" class="form-label">
+              Name:
+            </label>
+
+            <input
+              type="text"
+              id="bookingName"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            >
+
+          </div>
+
+
+          <div class="mb-3">
+
+            <label for="bookingEmail" class="form-label">
+              Email:
+            </label>
+
+            <input
+              type="email"
+              id="bookingEmail"
+              class="form-control"
+              placeholder="Enter your email"
+              required>
+
+          </div>
+
+
+          <div class="mb-3">
+
+            <label for="serviceChoice" class="form-label">
+              Select Service:
+            </label>
+
+            <select
+              id="serviceChoice"
+              class="form-control"
+              required>
+
+              <option value="">
+                Choose a service
+              </option>
+
+              <option value="Pet Grooming">
+                Pet Grooming
+              </option>
+
+              <option value="Veterinary Care">
+                Veterinary Care
+              </option>
+
+              <option value="Pet Bathing">
+                Pet Bathing
+              </option>
+
+              <option value="Hair Trimming">
+                Hair Trimming
+              </option>
+
+              <option value="Pet Care">
+                Pet Care
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div class="mb-3">
+
+            <label for="bookingDate" class="form-label">
+              Preferred Date:
+            </label>
+
+            <input
+              type="date"
+              id="bookingDate"
+              class="form-control"
+              required>
+
+          </div>
+
+
+          <div class="mb-3">
+
+            <label for="bookingMessage" class="form-label">
+              Additional Message:
+            </label>
+
+            <textarea
+              id="bookingMessage"
+              class="form-control"
+              rows="4"
+              placeholder="Enter additional details...">
+            </textarea>
+
+          </div>
+
+
+          <button
+            type="submit"
+            class="btn btn-primary">
+            Submit Booking
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
   <section class="about">
-<div class="container">
-  <div class="about-card">
-    <h3>Why Choose HUGO PETs?</h3>
-    <ul>
-      <li>🐾 Loving and gentle pet care</li>
-      <li>🐾 Friendly and caring service</li>
-      <li>🐾 Comfortable environment for pets</li>
-      <li>🐾 Quality products and treats</li>
-      <li>🐾 Your pet's happiness comes first</li>
-    </ul>
-  </div>
-</div>
+
+    <div class="container">
+
+      <div class="about-card">
+
+        <h3>Why Choose HUGO PETs?</h3>
+
+        <ul>
+          <li>🐾 Loving and gentle pet care</li>
+          <li>🐾 Friendly and caring service</li>
+          <li>🐾 Comfortable environment for pets</li>
+          <li>🐾 Quality products and treats</li>
+          <li>🐾 Your pet's happiness comes first</li>
+        </ul>
+
+      </div>
+
+    </div>
+
   </section>
 
-  <section id="contact" class="contact">
-<div class="container">
-  <div class="contact-box">
-    <h2>Ready to Pamper Your Pet?</h2>
-    <p>
-      Contact HUGO PETs today and let us give your furry
-      family member the love and care they deserve!
-    </p>
-    <a
-      href="mailto:kriszylehugo32@gmail.com"
-      class="btn btn-primary">
-      Contact Us
-    </a>
-  </div>
-</div>
-  </section>
 
   <footer>
-<div class="container footer-content">
-  <p>
-    &copy; 2026 HUGO PETs. All rights reserved.
-  </p>
-</div>
+
+    <div class="container footer-content">
+
+      <p>
+        &copy; 2026 HUGO PETs. All rights reserved.
+      </p>
+
+    </div>
+
   </footer>
+
+
+  <script src="../js/script.js"></script>
 
 </body>
 </html>
+```
